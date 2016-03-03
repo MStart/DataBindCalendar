@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--SquareView-->
+    <declare-styleable name="SquareViews">
+        <attr name="cal_spec" format="enum">
+            <enum name="cal_byWidth" value="0"></enum>
+            <enum name="cal_byHeight" value="1"></enum>
+        </attr>
+        <attr name="cal_ratio" format="float"></attr>
+    </declare-styleable>
+    <declare-styleable name="GridCalenderView">
+        <attr name="gcv_itemBackground" format="reference" />
+        <attr name="gcv_showItemFrame" format="boolean" />
+        <attr name="gcv_arrowColor" format="reference" />
+
+    </declare-styleable>
+    <!--SquareView-->
+
+
+</resources>

@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="tiny.demo.calendar.MainActivity">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/normal"
+            android:orderInCategory="100"
+            android:title="normal"
+            app:showAsAction="always" />
+        <item
+            android:id="@+id/single"
+            android:orderInCategory="100"
+            android:title="single"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/multi"
+            android:orderInCategory="100"
+            android:title="multi"
+            app:showAsAction="never" />
+    </group>
+
+</menu>
